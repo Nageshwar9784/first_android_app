@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#39CCE8FF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textfielddesign"
+            android:hint="ENTER ID"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textfielddesign"
+            android:hint="ENTER NAME"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/age"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textfielddesign"
+            android:hint="ENTER AGE"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textfielddesign"
+            android:hint="ENTER ADDRESS"
+            android:textAlignment="center"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/branch"
+            android:textSize="30sp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/textfielddesign"
+            android:hint="ENTER BRANCH"
+            android:textAlignment="center"/>
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:text="REGISTER"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:background="@drawable/buttondesign"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SliderImage">
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageslider"
+        app:iss_auto_cycle="true"
+        app:iss_corner_radius="20"
+        app:iss_period="1000"
+        app:iss_delay="0"
+        app:iss_error_image="@drawable/error"
+        app:iss_placeholder="@drawable/dark_gray_s"
+        app:iss_text_align="CENTER"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "299616093113",
+    "firebase_url": "https://eictapp-c15cd.firebaseio.com",
+    "project_id": "eictapp-c15cd",
+    "storage_bucket": "eictapp-c15cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299616093113:android:08c4b3df2c59e51d17ac68",
+        "android_client_info": {
+          "package_name": "com.ss.eictapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "299616093113-4d8ujg1a36fqi64mglhls624fhagk0dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ss.eictapp",
+            "certificate_hash": "298e2d79799b5b8a5108d1988b83c94e2d37939f"
+          }
+        },
+        {
+          "client_id": "299616093113-vrb3issid1n27kri6knjfp75e2ppsqtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABZXZlV_pSWvks7U-Np3DLniQRt1IlQXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "299616093113-vrb3issid1n27kri6knjfp75e2ppsqtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

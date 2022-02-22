@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/gallery"
+        android:title="Gallery" />
+    <item
+        android:id="@+id/music"
+        android:title="Music" />
+    <item
+        android:id="@+id/call"
+        android:title="Call" />
+    <item
+        android:id="@+id/sms"
+        android:title="SMS" />
+</menu>

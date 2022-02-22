@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ss.eictapp">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_alien"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/ic_alien"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".SpeechActivity"></activity>
+        <activity android:name=".BarCodeScanner" />
+        <activity android:name=".WeatherApp" />
+        <activity android:name=".MusicPlayer" />
+        <activity android:name=".ShowStudentData" />
+        <activity android:name=".StudentRegistration" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps" />
+        <activity android:name=".BoundedServiceDemo" />
+        <activity android:name=".MusicService" />
+        <activity android:name=".BluetoothDemo" />
+        <activity android:name=".WifiDemo" />
+        <activity android:name=".SliderImage" />
+        <activity android:name=".WebViewDemo" />
+        <activity android:name=".LightSensor" />
+        <activity android:name=".Proximity" />
+        <activity android:name=".AccSensorDemo" />
+        <activity android:name=".SensorList" />
+        <activity android:name=".ContactDetails" />
+        <activity android:name=".SongList" />
+        <activity android:name=".NotifyResult" />
+        <activity android:name=".NotificationDemo" />
+        <activity android:name=".FileTest" />
+        <activity android:name=".TicTacToe" />
+        <activity android:name=".ShowRecord" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".Next" />
+        <activity android:name=".Previous" />
+        <activity android:name=".ContextDemo" />
+        <activity android:name=".OptionDemo" />
+        <activity android:name=".QuizResult" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".SpinnerDemo" />
+        <activity android:name=".AutoComplete" />
+        <activity android:name=".ColorPicker" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MathOperation" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".CounterActivity" />
+
+        <receiver android:name=".broadcast.MyBroadast" />
+        <receiver android:name=".broadcast.WifiBroadcastReceiver" />
+        <receiver android:name=".broadcast.BluetoothBroadcastReceiver" />
+
+        <service android:name=".service.MyMusicService" />
+        <service android:name=".service.MyBoundedService" />
+    </application>
+
+</manifest>
